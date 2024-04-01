@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* GOOGLE FONTS - MONTSERRAT */
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+
+/* FONT SIZE */
+html {
+    font-size: 14px;
+}
+
+
+
+/* ESTILO HEADER
+header {
+  border-bottom: 1.5px solid #595959;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+*/
+
+header {
+  border-bottom: 1.5px solid #595959;
+  height: 50%;
+}
+
+.logo-wild-flowers {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  margin: 15px;
+}
+
+header nav ul li a {
+  color: #595959;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+*/
+
+.iconos-header {
+  display: flex;
+}
+
+.icono-lupa {
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  margin: 5px;
+}
+
+.icono-usuario {
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  margin: 5px;
+}
+
+.icono-bolsa-compras {
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  margin: 5px;
+}
+
+
+
+
+p {
+    font-family: "Montserrat", sans-serif;
+    color: #595959;
+}
+
+
+
+.agregar-carrito-color {
+  background-color: #F2F2F2;
+  color: #595959;
+  border-color: #595959;
+  margin-left: 45px;
+}
+
+main section .card .card-body a:hover {
+  background-color: #595959; !important
+  color: #F2F2F2; !important
+}
+
+/* ESTILO BREADCRUMB */
+body main section nav ol li .breadcrumb-item-inicio {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #595959; !important
+  font-size: 12px; !important
+  line-height: 20px; !important
+  margin: 0px; 
+}
+
+
+/* ESTILO FOOTER */
+
+footer {
+    font-family: "Roboto", sans-serif;
+    background-color: #F2F2F2;
+    color: #595959;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+footer section ul {
+  list-style-type: none;
+}
+
+footer h4 {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+.grid-section-footer-navegacion {
+  font-family: "Roboto", sans-serif;
+  color: #595959;
+  margin-left: 35px;
+  flex-wrap: wrap;  
+}
+
+
+.grid-section-footer-navegacion ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  color: #595959;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0px;
+}
+
+
+.grid-section-footer-formas-de-pago {
+  font-family: "Roboto", sans-serif;
+  color: #595959;
+  flex-wrap: wrap;
+}
+
+.grid-section-footer-formas-de-pago li {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  color: #595959;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.grid-section-footer-contactanos {
+  font-family: "Roboto", sans-serif;
+  color: #595959;
+  flex-wrap: wrap;
+}
+
+.grid-section-footer-contactanos li {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  color: #595959;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+
+.grid-section-footer-redes-sociales {
+  font-family: "Roboto", sans-serif;
+  color: #595959;
+  margin-right: 35px;
+  flex-wrap: wrap;
+}
+
+.icono-instagram {
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  margin: 5px;
+}
+
+.grid-section-footer-redes-sociales ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  color: #595959;
+  font-size: 12px;
+}
+
+
+
+/* TIPS DE SIEMBRA */
+body main section .wild-flowers-tips-h2 {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+body main section .wild-flowers-tips-p-titulo {
+  text-align: center;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+
+
+.images-tips-pasos-1 {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.images-tips-pasos-2-1 {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.images-tips-pasos-2-2 {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.images-tips-pasos-2-3 {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.images-tips-pasos-2-4 {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.images-tips-pasos-4 {
+  width: 100%;
+  margin-top: 25px;
+}
+
+
+
+.li-one {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: #595959;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-bottom: 4px;
+}
+
+/* COMENTARIOS EN CURSIVA */
+.paragraph-one {
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+}
+
+.tips-pasos-p {
+  font-family: "Roboto", sans-serif;
+}
+
+
+/* CONTACTO */
+body main div div div ul li {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #595959;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0px;
+  margin-left: 0px;
+
+}
+
+
+/* ABOUT */
+body main section .wild-flowers-about-h2 {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+}
+
+body main section .wild-flowers-about-p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+}
+
+.images-about-me {
+  width: 100%;
+  margin-top: 25px;
+}
+
+body main div div .wild-flowers-about-h2 {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+}
+
+body main div div .wild-flowers-about-p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
